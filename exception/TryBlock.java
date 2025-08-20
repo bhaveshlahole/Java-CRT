@@ -1,0 +1,19 @@
+package com.pote.engg.exception;
+
+public class TryBlock {
+
+	public static void main(String[] args) {
+		System.out.println("Prepare for the exception");
+		try {
+			System.out.println("Reach to the vmv square");
+			System.out.println("Observe the trffic on the road");
+			System.out.println("Ask for the traffic");
+			System.out.println("Again observe the traffic");
+			throw new RuntimeException("Accident :: 2 hr");
+
+	}
+	}
+}
+
+
+ 
